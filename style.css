@@ -1,0 +1,49 @@
+img {
+    width: 400px;
+    transition: 2s;
+}
+
+img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    transition: 2s;
+}
+
+a:hover {
+    color: black;
+}
+
+h1,
+p,
+h2,
+img,
+.skills {
+    margin-left: 600px;
+}
+
+body {
+    margin: 0;
+}
